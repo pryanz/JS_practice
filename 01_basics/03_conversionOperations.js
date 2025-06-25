@@ -19,8 +19,8 @@
 let isLoggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(typeof (booleanIsLoggedIn)) //boolean
-console.log(booleanIsLoggedIn) //true
+// console.log(typeof (booleanIsLoggedIn)) //boolean
+// console.log(booleanIsLoggedIn) //true
 
 // "" => false
 // "abc" => true
@@ -28,5 +28,27 @@ console.log(booleanIsLoggedIn) //true
 
 let someNumber =33
 let stringNumber = String(someNumber)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
+
+// ************** Operations *****************
+
+let value = 3
+let negvalue = - value
+
+// console.log(negvalue) // -3
+
+let str1 = "Hello"
+let str2 = " priyansh"
+let str3 = str1 + str2
+// console.log(str3); // Hello priyansh
+// console.log("1"+2);  // 12
+// console.log(1 + "2");  //12
+// console.log("1"+"2");  // 12
+
+// console.log("1" + 2 + 2);   // 122
+// console.log(1 + 2 + "2");   // 32
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter)
